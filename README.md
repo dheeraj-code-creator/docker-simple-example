@@ -19,5 +19,8 @@ docker push dheeraj1990kk/docker-simple-example:0.0.1-SNAPSHOT
 # Docker pull command from docker hub
 docker pull dheeraj1990kk/docker-simple-example:0.0.1-SNAPSHOT
 
+# after pull run an image locally            image-id
+docker run -d --restart=always -p 8086:8086 b6406ec187da
+
 # delete an existing image
 docker rmi image-id
