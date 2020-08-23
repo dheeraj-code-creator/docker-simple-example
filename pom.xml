@@ -52,7 +52,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<finalName>docker-springboot</finalName>
+					<finalName>docker-simple-example</finalName>
 				</configuration>
 			</plugin>
 		</plugins>
